@@ -12,13 +12,13 @@ default
         float X = pos.x;
         float Y = pos.y;
         llSetPos(<pos.x, pos.y, pos.z - 2>);
-        llSetText((string)pos, <1.0, 1.0, 1.0>, 1.0);
+        llSetText((string)llGetPos(), <1.0, 1.0, 1.0>, 1.0);
         llSleep(1.0);
         llSetPos(<pos.x -2, pos.y, pos.z>);
-        llSetText((string)pos, <1.0, 1.0, 1.0>, 1.0);
+        llSetText((string)llGetPos(), <1.0, 1.0, 1.0>, 1.0);
         llSleep(1.0);
         llSetPos(<pos.x - 2, pos.y, pos.z - 2>);
-        llSetText((string)pos, <1.0, 1.0, 1.0>, 1.0);
+        llSetText((string)llGetPos(), <1.0, 1.0, 1.0>, 1.0);
         llSleep(1.0);
         llSetPos(pos);
         llSetText((string)pos, <1.0, 1.0, 1.0>, 1.0);
